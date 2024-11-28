@@ -1,0 +1,82 @@
+/* style.css */
+
+body {
+    background-color: #1e3a5f; /* Azul oscuro para el fondo principal */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #000000; /* Texto en blanco para buen contraste */
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #abd2fa; /* Azul claro para los encabezados */
+  }
+  
+  form {
+    background-color: #2874a6; /* Azul Dinoco para el fondo del formulario */
+    border: 3px solid #1b4f72; /* Azul más oscuro para el borde del formulario */
+    padding: 20px 50px;
+    margin: 20px auto;
+    border-radius: 5px;
+    width: 50%;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  td {
+    padding: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="password"],
+  input[type="submit"],
+  input[type="reset"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 2px solid #abd2fa; /* Bordes azules claros */
+    border-radius: 5px;
+  }
+  
+  input[type="submit"],
+  input[type="reset"] {
+    background-color: #1e3a5f; /* Botones con azul oscuro */
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    background-color: #abd2fa; /* Color de fondo claro al pasar el mouse */
+    color: #1e3a5f; /* Texto oscuro al pasar el mouse */
+  }
+  
+  th,
+  h1 {
+    background-color: #ffffff; /* Fondo azul claro para encabezados de tabla */
+  }
+  
+  td,
+  th {
+    border: solid 1px #1b4f72; /* Bordes azules oscuros */
+    text-align: center;
+  }
+  
+  a {
+    color: #abd2fa; /* Enlaces en azul claro */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
